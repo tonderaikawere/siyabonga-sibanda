@@ -1,51 +1,77 @@
-# Welcome to your Lovable project
+# Siyabonga Sibanda - Portfolio
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/4e659a76-e927-4e65-8106-0453a56343d8
+Welcome to my professional portfolio website built with React, TypeScript, and Tailwind CSS. This showcase highlights my skills, projects, and experience as a software developer and entrepreneur.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Responsive design that works on all devices
+- Dark/light theme support
+- Interactive UI components
+- Project showcase with detailed descriptions
+- Contact form for reaching out
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4e659a76-e927-4e65-8106-0453a56343d8) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js (v18 or later)
+- npm (v9 or later) or yarn
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tonderaikawere/siyabonga-sibanda.git
+   cd siyabonga-sibanda
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Follow these steps:
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Building for Production
 
-# Step 3: Install the necessary dependencies.
-npm i
+To create a production build:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+npm run build
+# or
+yarn build
 ```
 
-**Edit a file directly in GitHub**
+## Technologies Used
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- React Router
+- React Query
+- Radix UI Components
+- Lucide Icons
 
-**Use GitHub Codespaces**
+## License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+- Email: contact@kawerify.tech
+- GitHub: [@tonderaikawere](https://github.com/tonderaikawere)
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
