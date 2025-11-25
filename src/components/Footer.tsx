@@ -89,24 +89,24 @@ const Footer = () => {
                   <Mail className="w-4 h-4 text-glow" />
                 </div>
                 <a 
-                  href="mailto:contact@kawerify.tech" 
+                  href="mailto:kawerifytech@gmail.com" 
                   className="text-sm hover:underline hover:text-glow transition-colors"
                 >
-                  contact@kawerify.tech
+                  kawerifytech@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <div className="p-1.5 rounded-full bg-glow/10">
                   <Phone className="w-4 h-4 text-glow" />
                 </div>
-                <span className="text-sm hover:text-glow transition-colors">+27 12 345 6789</span>
+                <span className="text-sm hover:text-glow transition-colors">+263 71 626 4988</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="p-1.5 rounded-full bg-glow/10 mt-1">
                   <MapPin className="w-4 h-4 text-glow" />
                 </div>
                 <span className="text-sm hover:text-glow transition-colors">
-                  Johannesburg, South Africa
+                  Ko Mthombeni Plot 2 along grampsway road, Rangemore, Bulawayo, Zimbabwe Ready to Start?
                 </span>
               </li>
             </ul>

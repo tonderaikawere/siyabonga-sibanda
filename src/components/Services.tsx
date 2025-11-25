@@ -1,5 +1,7 @@
+import React from 'react';
 import { Card } from "@/components/ui/card";
 import { Code, Globe, Smartphone, Zap, Database, Users } from "lucide-react";
+import AnimatedCard from "./AnimatedCard";
 
 const Services = () => {
   const services = [
@@ -44,7 +46,7 @@ const Services = () => {
   return (
     <section id="services" className="py-16 md:py-24 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center space-y-4 mb-12 md:mb-16 animate-fade-in-up">
+        <div className="text-center space-y-4 mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             Services <span className="glow-text">Offered</span>
           </h2>
@@ -54,17 +56,12 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {services.map((service, index) => {
-            const Icon = service.icon;
-            return (
-              <Card
-                key={index}
-                className="p-6 card-glow bg-card border-border hover:border-glow/50 group"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
+          {services.map((service, index) => (
+            <AnimatedCard key={index} index={index} className="h-full">
+              <Card className="p-6 card-glow bg-card border-border hover:border-glow/50 group h-full">
                 <div className="space-y-4">
                   <div className="p-3 bg-glow/10 rounded-lg w-fit group-hover:scale-110 transition-transform">
-                    <Icon className="w-8 h-8 text-glow" />
+                    {React.createElement(service.icon, { className: "w-8 h-8 text-glow" })}
                   </div>
                   <h3 className="text-xl font-bold group-hover:text-glow transition-colors">
                     {service.title}
@@ -85,8 +82,8 @@ const Services = () => {
                   </ul>
                 </div>
               </Card>
-            );
-          })}
+            </AnimatedCard>
+          ))}
         </div>
       </div>
     </section>
